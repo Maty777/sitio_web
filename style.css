@@ -1,0 +1,150 @@
+body{
+    background-color: rgba(231, 19, 221, 0.562);
+    font-family: 'Righteous', cursive;
+    margin: 0%;
+    padding: 0%
+
+}
+
+/* ordenar las ID y las clases */
+/* agregar paleta de colores para ser mas armonioso */
+
+/* HEADER */
+
+#titulo_principal {
+
+    color: #ae0cbd;
+    text-align: center;
+    font-size: 60px;
+
+}
+
+header {
+    font-weight: 500;
+    color: aliceblue;
+}
+
+nav {
+    color: aliceblue;
+    font-weight: 500;
+    text-align: justify;
+
+}
+
+/* CONTENIDO */
+
+#titulo {
+    color: #ae0cbd;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#titulo .texto {
+    color: aliceblue;
+    text-align: justify;
+    font-size: medium;
+    border-radius: 15px;
+
+}
+
+#titulo .texto_2 {
+    color: deepskyblue;
+}
+
+#imagen1 {
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+/* FOOTER */
+
+footer {
+
+    color: #ae0cbd;
+    font-size: medium;
+
+}
+
+body{
+    font-family: 'Righteous', cursive;
+
+}
+
+#carriles {
+
+    margin: 0% ;
+    padding: 0% ;
+
+}
+
+#campeones {
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 15;
+    left: 15;
+    background-color: darksalmon;
+
+}
+
+
+#main{
+    display: flex;
+    flex: 1;
+}
+article, nav, aside{
+    background-color: pink;
+}
+header, footer{
+    background-color: gray;
+    margin: 1px;
+}
+article, nav, aside, header, footer{
+    flex:1;
+    padding: 1rem;
+    margin: 1px;
+}
+
+p{
+    display: inline-block;
+    background-color: #29b4d6;
+}
+
+span{
+    display: block;
+    background-color: rgb(60, 204, 180);
+}
+
+#info {
+    width: 150px;
+    color: black;
+}
+
+#info .info1 {
+    color: crimson;
+}
+
+#info .info2 {
+    color: darkorange;
+}
+
+/* contacto */
+
+#padre {
+    display: grid;
+    grid-template-columns: repeat(15, 3fr);
+    grid-template-rows: repeat(15, 2fr);
+
+
+}
+
+.hijo-1, .hijo-2, .hijo-3, .hijo-4, .hijo-5{
+    border: 5px solid black;
+}
+
+#padre2 {
+    display: flex;
+
+}
